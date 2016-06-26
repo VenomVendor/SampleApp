@@ -16,12 +16,13 @@
     <TextView
         android:id="@+id/reading"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="30dp"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        tools:text="@string/no_sensor" />
 
     <ImageView
         android:id="@+id/ball"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ball"/>
+        tools:src="@drawable/ball" />
 </LinearLayout>
