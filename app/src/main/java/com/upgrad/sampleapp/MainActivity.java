@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
 
         if (mSensor == null) {
-            mLightReading.setText(getResources().getText(R.string.no_sensor));
+            mLightReading.setText(R.string.no_sensor);
         }
     }
 
